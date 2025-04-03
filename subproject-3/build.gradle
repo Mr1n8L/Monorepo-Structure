@@ -1,7 +1,8 @@
-mainClassName = 'subproject.App'
+mainClassName = 'subproject3.App'
 
 dependencies {
     implementation project(":subproject-2")
+    implementation project(":subproject-1")
 }
 
 // Custom run task

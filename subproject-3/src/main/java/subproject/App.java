@@ -1,8 +1,19 @@
 package subproject;
 
+import subproject.Library;
+import subproject.Service;
+import subproject.MessageProvider;
+
+public class ServiceFactory {
+    public static Service createService() {
+        MessageProvider provider = new Library();
+        return new Service(provider);
+    }
+}
+
 public class App {
     public String getGreeting() {
-        Service service = new Service();
+        Service service = ServiceFactory.createService();
         return service.serve();
     }
 
