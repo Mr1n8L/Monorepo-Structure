@@ -2,22 +2,7 @@ rootProject.name = 'monorepo'
 
 // settings.gradle
 
-include("project-1")
-include("project-2")
+include("subproject-1")
+include("subproject-2")
+include("subproject-3")
 include("shared")
-
-dependencyResolutionManagement {
-    versionCatalogs {
-        create("springboot") {
-            library("bom", "org.springframework.boot:spring-boot-dependencies:3.3.2")
-        }
-
-        create("libs") {
-            library("lib1", "lib1-coordinates-and-version")
-            library("lib2", "lib2-coordinates-and-version")
-            // add other libraries here
-        }
-
-        // add other library blocks here
-    }
-}

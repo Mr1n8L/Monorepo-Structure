@@ -1,0 +1,22 @@
+def javaProjects = [
+        project(":subproject-1"),
+        project(":subproject-2"),
+        project(":subproject-3"),
+]
+
+configure(javaProjects) {
+    println "${project.name}"
+    apply plugin: 'application'
+    version '1.0.0'
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+
+    }
+
+    test {
+        useJUnitPlatform()
+    }
+}

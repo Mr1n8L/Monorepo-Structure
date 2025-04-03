@@ -1,0 +1,11 @@
+mainClassName = 'subproject.App'
+
+dependencies {
+    implementation project(":subproject-2")
+}
+
+// Custom run task
+task runApp(type: JavaExec) {
+    mainClass = mainClassName
+    classpath = sourceSets.main.runtimeClasspath + sourceSets.main.output
+}
