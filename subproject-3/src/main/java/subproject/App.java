@@ -3,6 +3,7 @@ package subproject;
 import subproject.Library;
 import subproject.Service;
 import subproject.MessageProvider;
+import lib.Utility;
 
 public class ServiceFactory {
     public static Service createService() {
@@ -14,7 +15,7 @@ public class ServiceFactory {
 public class App {
     public String getGreeting() {
         Service service = ServiceFactory.createService();
-        return service.serve();
+        return Utility.formatMessage(service.serve());
     }
 
     public static void main(String[] args) {

@@ -1,8 +1,13 @@
-mainClassName = 'subproject3.App'
+plugins {
+    id 'application' // This is required for 'mainClassName'
+}
+
+mainClassName = 'subproject3.App' // Set the main class
 
 dependencies {
     implementation project(":subproject-2")
     implementation project(":subproject-1")
+    implementation project(":lib")
 }
 
 // Custom run task

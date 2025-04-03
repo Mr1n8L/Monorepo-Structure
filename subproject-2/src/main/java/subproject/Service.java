@@ -1,6 +1,7 @@
 package subproject;
 
 import subproject.MessageProvider;
+import lib.Utility;
 
 public class Service {
     private final MessageProvider messageProvider;
@@ -10,6 +11,6 @@ public class Service {
     }
 
     public String serve() {
-        return messageProvider.getMessage();
+        return Utility.formatMessage(messageProvider.getMessage());
     }
 }

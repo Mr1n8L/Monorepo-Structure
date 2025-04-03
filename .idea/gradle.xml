@@ -22,6 +22,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/lib" />
             <option value="$PROJECT_DIR$/shared" />
             <option value="$PROJECT_DIR$/subproject-1" />
             <option value="$PROJECT_DIR$/subproject-2" />
