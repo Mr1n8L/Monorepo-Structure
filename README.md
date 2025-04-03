@@ -90,3 +90,7 @@ mr1n8l-monorepo-structure/
 
 ## 👥 Contributors
 - Mrinal Jani
+
+  
+## Output
+![image](https://github.com/user-attachments/assets/45df8381-db87-46ac-801f-595e2fcb3642)
