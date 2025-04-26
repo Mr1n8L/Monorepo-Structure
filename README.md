@@ -1,7 +1,7 @@
 # Monorepo-Structure
 Learning Monorepo structure for Microservices architecture 
 
-POC for Monorepo
+POC for Monorepo Structure
 
 # Monorepo POC - Java with Spring Boot
 
