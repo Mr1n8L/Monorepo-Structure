@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: java-monorepo
+  labels:
+    name: java-monorepo
+    env: development 

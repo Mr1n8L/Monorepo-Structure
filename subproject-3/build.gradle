@@ -2,7 +2,7 @@ plugins {
     id 'application' // This is required for 'mainClassName'
 }
 
-mainClassName = 'subproject3.App' // Set the main class
+mainClassName = 'subproject.App' // Set the main class
 
 dependencies {
     implementation project(":subproject-2")
